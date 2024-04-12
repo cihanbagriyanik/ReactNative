@@ -25,6 +25,10 @@ export default function HomeScreen({ navigation }) {
         title="Renk Degistir"
         onPress={() => navigation.navigate("Renk Degistir")}
       />
+            <Button
+        title="Sifre Ekrani"
+        onPress={() => navigation.navigate("Sifre Ekrani")}
+      />
     </View>
   );
 }
